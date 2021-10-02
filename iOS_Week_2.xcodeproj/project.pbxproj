@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B40F9918270831470031D311 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F9917270831470031D311 /* InfoView.swift */; };
+		B40F991A270831640031D311 /* InfoViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F9919270831640031D311 /* InfoViewData.swift */; };
+		B40F991D270831BF0031D311 /* PermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F991C270831BF0031D311 /* PermissionView.swift */; };
+		B40F991F270831EC0031D311 /* PermissionViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F991E270831EC0031D311 /* PermissionViewData.swift */; };
 		B41E2CA226FFA72E00DA5F7D /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41E2CA126FFA72E00DA5F7D /* BaseView.swift */; };
 		B41E2CA426FFA7B300DA5F7D /* GenericBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41E2CA326FFA7B300DA5F7D /* GenericBaseView.swift */; };
 		B41E2CA626FFA90900DA5F7D /* GenericValueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41E2CA526FFA90900DA5F7D /* GenericValueProtocol.swift */; };
@@ -59,6 +63,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B40F9917270831470031D311 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		B40F9919270831640031D311 /* InfoViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewData.swift; sourceTree = "<group>"; };
+		B40F991C270831BF0031D311 /* PermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionView.swift; sourceTree = "<group>"; };
+		B40F991E270831EC0031D311 /* PermissionViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewData.swift; sourceTree = "<group>"; };
 		B41E2CA126FFA72E00DA5F7D /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		B41E2CA326FFA7B300DA5F7D /* GenericBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericBaseView.swift; sourceTree = "<group>"; };
 		B41E2CA526FFA90900DA5F7D /* GenericValueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericValueProtocol.swift; sourceTree = "<group>"; };
@@ -122,9 +130,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B40F99162708312C0031D311 /* InfoViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				B40F9917270831470031D311 /* InfoView.swift */,
+				B40F9919270831640031D311 /* InfoViewData.swift */,
+			);
+			name = InfoViewComponent;
+			sourceTree = "<group>";
+		};
+		B40F991B270831A70031D311 /* PermissionViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				B40F991C270831BF0031D311 /* PermissionView.swift */,
+				B40F991E270831EC0031D311 /* PermissionViewData.swift */,
+			);
+			name = PermissionViewComponent;
+			sourceTree = "<group>";
+		};
 		B41E2C9F26FFA71400DA5F7D /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				B40F991B270831A70031D311 /* PermissionViewComponent */,
+				B40F99162708312C0031D311 /* InfoViewComponent */,
 				B41E2CA726FFA9D700DA5F7D /* ActionComponents */,
 				B41E2CA026FFA71D00DA5F7D /* BaseComponent */,
 			);
@@ -422,6 +450,7 @@
 				B41E2CE426FFB9BE00DA5F7D /* UIView+Extensions.swift in Sources */,
 				B48D93DE26FFA67300825296 /* MainViewController.swift in Sources */,
 				B41E2CD826FFB0EB00DA5F7D /* ActionButtonTheme.swift in Sources */,
+				B40F991F270831EC0031D311 /* PermissionViewData.swift in Sources */,
 				B48D93DA26FFA67300825296 /* AppDelegate.swift in Sources */,
 				B41E2CD626FFB0B300DA5F7D /* ActionButtonType.swift in Sources */,
 				B48D93DC26FFA67300825296 /* SceneDelegate.swift in Sources */,
@@ -431,7 +460,10 @@
 				B41E2CA226FFA72E00DA5F7D /* BaseView.swift in Sources */,
 				B41E2CD426FFB07800DA5F7D /* ActionButtonData.swift in Sources */,
 				B41E2CDE26FFB5D900DA5F7D /* ActionModule.swift in Sources */,
+				B40F991D270831BF0031D311 /* PermissionView.swift in Sources */,
 				B41E2CA626FFA90900DA5F7D /* GenericValueProtocol.swift in Sources */,
+				B40F9918270831470031D311 /* InfoView.swift in Sources */,
+				B40F991A270831640031D311 /* InfoViewData.swift in Sources */,
 				B41E2CAA26FFAA0D00DA5F7D /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

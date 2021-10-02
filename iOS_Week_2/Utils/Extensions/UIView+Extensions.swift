@@ -8,17 +8,22 @@
 import UIKit
 
 extension UIView {
-    
-    func startTappedAnimation(with completion: @escaping (Bool) -> Void) {
-        
-        transform = CGAffineTransform(scaleX: 0.95, y: 0.95)
-        
-        UIView.animate(withDuration: 0.3, delay: 0, usingSpringWithDamping: 0.8, initialSpringVelocity: 6.0, options: .allowUserInteraction, animations: {
-            self.transform = CGAffineTransform.identity
+
+    public func startPressedAnimationCommon(withDuration: CGFloat = 0.3, completion: @escaping (_ finish: Bool) -> Void) {
+
+        self.transform = CGAffineTransform(scaleX: 0.95, y: 0.95) 
+        UIView.animate(withDuration: TimeInterval(withDuration),
+                       delay: 0,
+                       usingSpringWithDamping: CGFloat(0.8),
+            initialSpringVelocity: CGFloat(6.0),
+            options: UIView.AnimationOptions.allowUserInteraction,
+            animations: {
+
+                self.transform = CGAffineTransform.identity
+
         }, completion: completion)
-        
+
         self.layoutIfNeeded()
-        
     }
     
 }

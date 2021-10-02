@@ -87,7 +87,7 @@ class PermissionView: GenericBaseView<PermissionViewData> {
         guard let data = returnData() else { return }
         imageView.image = data.image
         infoView.setData(value: data.infoViewData)
-        actionComponent.setData(value: data.actionComponentData)
+        actionComponent.setData(value: data.actionModuleData)
     }
     
 }

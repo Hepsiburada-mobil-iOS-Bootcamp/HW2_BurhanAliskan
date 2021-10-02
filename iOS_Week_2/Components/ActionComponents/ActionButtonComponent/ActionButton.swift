@@ -96,24 +96,21 @@ class ActionButton: GenericBaseView<ActionButtonData> {
 // MARK: - UIGestureRecognizerDelegate
 extension ActionButton: UIGestureRecognizerDelegate {
     
-    private func addTapGesture() {
-        let tap = UITapGestureRecognizer(target: self, action: .buttonTappedSelector)
-        tap.delegate = self
-        addGestureRecognizer(tap)
+    @objc fileprivate func actionButtonTapped(_ sender: UITapGestureRecognizer) {
+        guard let data = returnData() else { return }
+        startPressedAnimationCommon(withDuration: 0.3) { [weak self] finish in
+            data.actionButtonListener?()
+        }
     }
     
-    @objc fileprivate func buttonTapped(_ sender: UITapGestureRecognizer) {
-        isUserInteractionEnabled = false
-        startTappedAnimation { finish in
-            if finish {
-                self.isUserInteractionEnabled = true
-                self.pressedButtonAction()
-            }
-        }
+    private func addTapGesture() {
+        let tap = UITapGestureRecognizer(target: self, action: .actionButtonTapped)
+        tap.delegate = self
+        self.addGestureRecognizer(tap)
     }
     
 }
 
 fileprivate extension Selector {
-    static let buttonTappedSelector = #selector(ActionButton.buttonTapped)
+    static let actionButtonTapped = #selector(ActionButton.actionButtonTapped)
 }

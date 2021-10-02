@@ -7,9 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B40F9918270831470031D311 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F9917270831470031D311 /* InfoView.swift */; };
+		B40F991A270831640031D311 /* InfoViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F9919270831640031D311 /* InfoViewData.swift */; };
+		B40F991D270831BF0031D311 /* PermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F991C270831BF0031D311 /* PermissionView.swift */; };
+		B40F991F270831EC0031D311 /* PermissionViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F991E270831EC0031D311 /* PermissionViewData.swift */; };
+		B40F9923270835340031D311 /* PermissionManagerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F9922270835340031D311 /* PermissionManagerFactory.swift */; };
+		B40F9925270835500031D311 /* PermissionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F9924270835500031D311 /* PermissionType.swift */; };
+		B40F992A2708359E0031D311 /* CameraPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F99292708359E0031D311 /* CameraPermissionManager.swift */; };
+		B40F992C270835CE0031D311 /* CameraPermissionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F992B270835CE0031D311 /* CameraPermissionProtocol.swift */; };
+		B40F992E270835F10031D311 /* PhotosPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F992D270835F10031D311 /* PhotosPermissionManager.swift */; };
+		B40F99302708360D0031D311 /* PhotosPermissionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F992F2708360D0031D311 /* PhotosPermissionProtocol.swift */; };
+		B40F99322708362C0031D311 /* PermissionManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F99312708362C0031D311 /* PermissionManagerProtocol.swift */; };
+		B40F9934270837300031D311 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F9933270837300031D311 /* UIApplication+Extension.swift */; };
+		B40F9937270837820031D311 /* GenericProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F9936270837820031D311 /* GenericProtocols.swift */; };
+		B40F9939270837C40031D311 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F9938270837C40031D311 /* BaseViewController.swift */; };
+		B40F993C270837F50031D311 /* PermissionImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F993B270837F50031D311 /* PermissionImages.swift */; };
+		B40F993F27083CF40031D311 /* MainViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F993E27083CF40031D311 /* MainViewBuilder.swift */; };
+		B40F994127083D120031D311 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F994027083D120031D311 /* MainViewModel.swift */; };
+		B40F994527083D9F0031D311 /* PermissionViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F994427083D9F0031D311 /* PermissionViewBuilder.swift */; };
+		B40F994727083DB40031D311 /* PermissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F994627083DB40031D311 /* PermissionViewModel.swift */; };
+		B40F994927083DCC0031D311 /* PermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F994827083DCC0031D311 /* PermissionViewController.swift */; };
 		B41E2CA226FFA72E00DA5F7D /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41E2CA126FFA72E00DA5F7D /* BaseView.swift */; };
 		B41E2CA426FFA7B300DA5F7D /* GenericBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41E2CA326FFA7B300DA5F7D /* GenericBaseView.swift */; };
-		B41E2CA626FFA90900DA5F7D /* GenericValueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41E2CA526FFA90900DA5F7D /* GenericValueProtocol.swift */; };
 		B41E2CAA26FFAA0D00DA5F7D /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41E2CA926FFAA0D00DA5F7D /* ActionButton.swift */; };
 		B41E2CC026FFAE1C00DA5F7D /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B41E2CAD26FFAE1B00DA5F7D /* Roboto-Bold.ttf */; };
 		B41E2CC226FFAE1C00DA5F7D /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B41E2CAF26FFAE1B00DA5F7D /* Roboto-Light.ttf */; };
@@ -33,7 +52,6 @@
 		B48D93DA26FFA67300825296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48D93D926FFA67300825296 /* AppDelegate.swift */; };
 		B48D93DC26FFA67300825296 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48D93DB26FFA67300825296 /* SceneDelegate.swift */; };
 		B48D93DE26FFA67300825296 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48D93DD26FFA67300825296 /* MainViewController.swift */; };
-		B48D93E126FFA67300825296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48D93DF26FFA67300825296 /* Main.storyboard */; };
 		B48D93E326FFA67400825296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48D93E226FFA67400825296 /* Assets.xcassets */; };
 		B48D93E626FFA67400825296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48D93E426FFA67400825296 /* LaunchScreen.storyboard */; };
 		B48D93F126FFA67400825296 /* iOS_Week_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48D93F026FFA67400825296 /* iOS_Week_2Tests.swift */; };
@@ -59,9 +77,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B40F9917270831470031D311 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		B40F9919270831640031D311 /* InfoViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewData.swift; sourceTree = "<group>"; };
+		B40F991C270831BF0031D311 /* PermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionView.swift; sourceTree = "<group>"; };
+		B40F991E270831EC0031D311 /* PermissionViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewData.swift; sourceTree = "<group>"; };
+		B40F9922270835340031D311 /* PermissionManagerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManagerFactory.swift; sourceTree = "<group>"; };
+		B40F9924270835500031D311 /* PermissionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionType.swift; sourceTree = "<group>"; };
+		B40F99292708359E0031D311 /* CameraPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermissionManager.swift; sourceTree = "<group>"; };
+		B40F992B270835CE0031D311 /* CameraPermissionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermissionProtocol.swift; sourceTree = "<group>"; };
+		B40F992D270835F10031D311 /* PhotosPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPermissionManager.swift; sourceTree = "<group>"; };
+		B40F992F2708360D0031D311 /* PhotosPermissionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPermissionProtocol.swift; sourceTree = "<group>"; };
+		B40F99312708362C0031D311 /* PermissionManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManagerProtocol.swift; sourceTree = "<group>"; };
+		B40F9933270837300031D311 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		B40F9936270837820031D311 /* GenericProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericProtocols.swift; sourceTree = "<group>"; };
+		B40F9938270837C40031D311 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B40F993B270837F50031D311 /* PermissionImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionImages.swift; sourceTree = "<group>"; };
+		B40F993E27083CF40031D311 /* MainViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewBuilder.swift; sourceTree = "<group>"; };
+		B40F994027083D120031D311 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		B40F994427083D9F0031D311 /* PermissionViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewBuilder.swift; sourceTree = "<group>"; };
+		B40F994627083DB40031D311 /* PermissionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewModel.swift; sourceTree = "<group>"; };
+		B40F994827083DCC0031D311 /* PermissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewController.swift; sourceTree = "<group>"; };
 		B41E2CA126FFA72E00DA5F7D /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		B41E2CA326FFA7B300DA5F7D /* GenericBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericBaseView.swift; sourceTree = "<group>"; };
-		B41E2CA526FFA90900DA5F7D /* GenericValueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericValueProtocol.swift; sourceTree = "<group>"; };
 		B41E2CA926FFAA0D00DA5F7D /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		B41E2CAD26FFAE1B00DA5F7D /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		B41E2CAF26FFAE1B00DA5F7D /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
@@ -86,7 +123,6 @@
 		B48D93D926FFA67300825296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B48D93DB26FFA67300825296 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B48D93DD26FFA67300825296 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		B48D93E026FFA67300825296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B48D93E226FFA67400825296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B48D93E526FFA67400825296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B48D93E726FFA67400825296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -122,9 +158,111 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B40F99162708312C0031D311 /* InfoViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				B40F9917270831470031D311 /* InfoView.swift */,
+				B40F9919270831640031D311 /* InfoViewData.swift */,
+			);
+			name = InfoViewComponent;
+			sourceTree = "<group>";
+		};
+		B40F991B270831A70031D311 /* PermissionViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				B40F991C270831BF0031D311 /* PermissionView.swift */,
+				B40F991E270831EC0031D311 /* PermissionViewData.swift */,
+			);
+			name = PermissionViewComponent;
+			sourceTree = "<group>";
+		};
+		B40F9920270835090031D311 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B40F9928270835820031D311 /* Protocols */,
+				B40F99272708357A0031D311 /* Photos */,
+				B40F9926270835750031D311 /* Camera */,
+				B40F99212708351C0031D311 /* Builders */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		B40F99212708351C0031D311 /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				B40F9922270835340031D311 /* PermissionManagerFactory.swift */,
+				B40F9924270835500031D311 /* PermissionType.swift */,
+			);
+			name = Builders;
+			sourceTree = "<group>";
+		};
+		B40F9926270835750031D311 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				B40F99292708359E0031D311 /* CameraPermissionManager.swift */,
+				B40F992B270835CE0031D311 /* CameraPermissionProtocol.swift */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		B40F99272708357A0031D311 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				B40F992D270835F10031D311 /* PhotosPermissionManager.swift */,
+				B40F992F2708360D0031D311 /* PhotosPermissionProtocol.swift */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		B40F9928270835820031D311 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B40F99312708362C0031D311 /* PermissionManagerProtocol.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		B40F99352708375E0031D311 /* GenericProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				B40F9936270837820031D311 /* GenericProtocols.swift */,
+			);
+			path = GenericProtocols;
+			sourceTree = "<group>";
+		};
+		B40F993A270837E50031D311 /* PermissionImage */ = {
+			isa = PBXGroup;
+			children = (
+				B40F993B270837F50031D311 /* PermissionImages.swift */,
+			);
+			name = PermissionImage;
+			sourceTree = "<group>";
+		};
+		B40F993D27083CD30031D311 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B48D93DD26FFA67300825296 /* MainViewController.swift */,
+				B40F993E27083CF40031D311 /* MainViewBuilder.swift */,
+				B40F994027083D120031D311 /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B40F994327083D880031D311 /* Permission */ = {
+			isa = PBXGroup;
+			children = (
+				B40F994427083D9F0031D311 /* PermissionViewBuilder.swift */,
+				B40F994627083DB40031D311 /* PermissionViewModel.swift */,
+				B40F994827083DCC0031D311 /* PermissionViewController.swift */,
+			);
+			path = Permission;
+			sourceTree = "<group>";
+		};
 		B41E2C9F26FFA71400DA5F7D /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				B40F991B270831A70031D311 /* PermissionViewComponent */,
+				B40F99162708312C0031D311 /* InfoViewComponent */,
 				B41E2CA726FFA9D700DA5F7D /* ActionComponents */,
 				B41E2CA026FFA71D00DA5F7D /* BaseComponent */,
 			);
@@ -136,7 +274,7 @@
 			children = (
 				B41E2CA126FFA72E00DA5F7D /* BaseView.swift */,
 				B41E2CA326FFA7B300DA5F7D /* GenericBaseView.swift */,
-				B41E2CA526FFA90900DA5F7D /* GenericValueProtocol.swift */,
+				B40F9938270837C40031D311 /* BaseViewController.swift */,
 			);
 			path = BaseComponent;
 			sourceTree = "<group>";
@@ -164,6 +302,8 @@
 		B41E2CAB26FFADEA00DA5F7D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				B40F993A270837E50031D311 /* PermissionImage */,
+				B40F99352708375E0031D311 /* GenericProtocols */,
 				B41E2CE226FFB99A00DA5F7D /* Extensions */,
 				B41E2CD926FFB28700DA5F7D /* FontManagers */,
 				B41E2CAC26FFADF100DA5F7D /* Fonts */,
@@ -207,18 +347,20 @@
 			path = ActionModuleComponent;
 			sourceTree = "<group>";
 		};
-		B41E2CE126FFB79300DA5F7D /* Main */ = {
+		B41E2CE126FFB79300DA5F7D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B48D93DD26FFA67300825296 /* MainViewController.swift */,
+				B40F993D27083CD30031D311 /* Main */,
+				B40F994327083D880031D311 /* Permission */,
 			);
-			path = Main;
+			path = View;
 			sourceTree = "<group>";
 		};
 		B41E2CE226FFB99A00DA5F7D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				B41E2CE326FFB9BE00DA5F7D /* UIView+Extensions.swift */,
+				B40F9933270837300031D311 /* UIApplication+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -246,12 +388,12 @@
 		B48D93D826FFA67300825296 /* iOS_Week_2 */ = {
 			isa = PBXGroup;
 			children = (
-				B41E2CE126FFB79300DA5F7D /* Main */,
+				B40F9920270835090031D311 /* Manager */,
+				B41E2CE126FFB79300DA5F7D /* View */,
 				B41E2CAB26FFADEA00DA5F7D /* Utils */,
 				B41E2C9F26FFA71400DA5F7D /* Components */,
 				B48D93D926FFA67300825296 /* AppDelegate.swift */,
 				B48D93DB26FFA67300825296 /* SceneDelegate.swift */,
-				B48D93DF26FFA67300825296 /* Main.storyboard */,
 				B48D93E226FFA67400825296 /* Assets.xcassets */,
 				B48D93E426FFA67400825296 /* LaunchScreen.storyboard */,
 				B48D93E726FFA67400825296 /* Info.plist */,
@@ -390,7 +532,6 @@
 				B48D93E326FFA67400825296 /* Assets.xcassets in Resources */,
 				B41E2CC026FFAE1C00DA5F7D /* Roboto-Bold.ttf in Resources */,
 				B41E2CC326FFAE1C00DA5F7D /* Roboto-BoldItalic.ttf in Resources */,
-				B48D93E126FFA67300825296 /* Main.storyboard in Resources */,
 				B41E2CCB26FFAE1C00DA5F7D /* Roboto-Regular.ttf in Resources */,
 				B41E2CD026FFAE1C00DA5F7D /* Roboto-Italic.ttf in Resources */,
 				B41E2CC726FFAE1C00DA5F7D /* Roboto-MediumItalic.ttf in Resources */,
@@ -419,19 +560,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B40F992A2708359E0031D311 /* CameraPermissionManager.swift in Sources */,
 				B41E2CE426FFB9BE00DA5F7D /* UIView+Extensions.swift in Sources */,
 				B48D93DE26FFA67300825296 /* MainViewController.swift in Sources */,
 				B41E2CD826FFB0EB00DA5F7D /* ActionButtonTheme.swift in Sources */,
+				B40F99322708362C0031D311 /* PermissionManagerProtocol.swift in Sources */,
+				B40F994127083D120031D311 /* MainViewModel.swift in Sources */,
+				B40F9939270837C40031D311 /* BaseViewController.swift in Sources */,
+				B40F991F270831EC0031D311 /* PermissionViewData.swift in Sources */,
 				B48D93DA26FFA67300825296 /* AppDelegate.swift in Sources */,
+				B40F994727083DB40031D311 /* PermissionViewModel.swift in Sources */,
+				B40F9937270837820031D311 /* GenericProtocols.swift in Sources */,
 				B41E2CD626FFB0B300DA5F7D /* ActionButtonType.swift in Sources */,
+				B40F994527083D9F0031D311 /* PermissionViewBuilder.swift in Sources */,
 				B48D93DC26FFA67300825296 /* SceneDelegate.swift in Sources */,
+				B40F992E270835F10031D311 /* PhotosPermissionManager.swift in Sources */,
 				B41E2CE026FFB5FB00DA5F7D /* ActionModuleData.swift in Sources */,
 				B41E2CA426FFA7B300DA5F7D /* GenericBaseView.swift in Sources */,
+				B40F9934270837300031D311 /* UIApplication+Extension.swift in Sources */,
 				B41E2CDB26FFB29800DA5F7D /* FontManager.swift in Sources */,
 				B41E2CA226FFA72E00DA5F7D /* BaseView.swift in Sources */,
 				B41E2CD426FFB07800DA5F7D /* ActionButtonData.swift in Sources */,
 				B41E2CDE26FFB5D900DA5F7D /* ActionModule.swift in Sources */,
-				B41E2CA626FFA90900DA5F7D /* GenericValueProtocol.swift in Sources */,
+				B40F991D270831BF0031D311 /* PermissionView.swift in Sources */,
+				B40F99302708360D0031D311 /* PhotosPermissionProtocol.swift in Sources */,
+				B40F993F27083CF40031D311 /* MainViewBuilder.swift in Sources */,
+				B40F9923270835340031D311 /* PermissionManagerFactory.swift in Sources */,
+				B40F992C270835CE0031D311 /* CameraPermissionProtocol.swift in Sources */,
+				B40F9918270831470031D311 /* InfoView.swift in Sources */,
+				B40F994927083DCC0031D311 /* PermissionViewController.swift in Sources */,
+				B40F993C270837F50031D311 /* PermissionImages.swift in Sources */,
+				B40F991A270831640031D311 /* InfoViewData.swift in Sources */,
+				B40F9925270835500031D311 /* PermissionType.swift in Sources */,
 				B41E2CAA26FFAA0D00DA5F7D /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,14 +629,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B48D93DF26FFA67300825296 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B48D93E026FFA67300825296 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B48D93E426FFA67400825296 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -616,7 +768,6 @@
 				INFOPLIST_FILE = iOS_Week_2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -644,7 +795,6 @@
 				INFOPLIST_FILE = iOS_Week_2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

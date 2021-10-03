@@ -55,8 +55,8 @@ class PhotosPermissionManager: NSObject, PhotosPermisionProtocol, UIImagePickerC
         pickerController.dismiss(animated: true, completion: nil)
     }
     
-    func getPermissionRequestViewData(with pozitifCompletion: @escaping VoidBlock, with negativeCompletion: @escaping VoidBlock) -> PermissionViewData {
-        return PermissionViewData(image: PermissionImages.notif.value, infoViewData: InfoViewData(title: "Photos Permission", subTitle: "Would you please give us permission to reach out your galery."), actionModuleData: ActionModuleData(negativeButtonData: ActionButtonData(text: "NOT NOW", buttonType: .filled(.bright)).setActionButtonListener(by: negativeCompletion), positiveButtonData: ActionButtonData(text: "OK", buttonType: .outlined(.bright)).setActionButtonListener(by: pozitifCompletion)))
+    func getPermissionRequestViewData(with pozitiveCompletion: @escaping VoidBlock, with negativeCompletion: @escaping VoidBlock) -> PermissionViewData {
+        return PermissionViewData(image: PermissionImages.notif.value, infoViewData: InfoViewData(title: "Photos Permission", subTitle: "Would you please give us permission to reach out your galery."), actionModuleData: ActionModuleData(negativeButtonData: ActionButtonData(text: "NOT NOW", buttonType: .outlined(.bright)).setActionButtonListener(by: negativeCompletion), positiveButtonData: ActionButtonData(text: "OK", buttonType: .filled(.bright)).setActionButtonListener(by: pozitiveCompletion)))
 
     }
     

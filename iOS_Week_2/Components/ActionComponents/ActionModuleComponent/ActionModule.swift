@@ -18,7 +18,7 @@ class ActionModule: GenericBaseView<ActionModuleData> {
     }()
     
     private lazy var mainStackView: UIStackView = {
-        let temp = UIStackView(arrangedSubviews: [positiveButton, negativeButton])
+        let temp = UIStackView(arrangedSubviews: [negativeButton, positiveButton])
         temp.translatesAutoresizingMaskIntoConstraints = false
         temp.alignment = .center
         temp.distribution = .fill
